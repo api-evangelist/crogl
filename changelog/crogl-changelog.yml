@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://crogl.com/release-notes
+scheme: semver
+current_version: 1.2.20
+notes: >-
+  Crogl publishes a dated release-notes stream for its on-premises AI security
+  operations platform. Only the most recent release carried full detail on the
+  public index at capture time; earlier versions are linked but not dated here,
+  so they are listed by version without fabricated dates or highlights.
+entries:
+  - version: 1.2.20
+    date: '2026-05-27'
+    url: https://crogl.com/release-notes/1.2.20
+    breaking: false
+    highlights:
+      - Instance-wide skill sharing for administrators.
+      - Expanded Linux installer support across more distributions and architectures.
+      - Docker preflight checks with automated remediation.
+      - Streamlined installer prerequisites.
+      - Unified LLM and connector configuration interfaces.
+      - Connection testing for built-in connectors.
+      - Completed the API path rename from "Extensions" to "Connectors".
+recent_versions:
+  - version: 1.2.20
+    date: '2026-05-27'
+    url: https://crogl.com/release-notes/1.2.20
+  - version: 1.2.19
+    url: https://crogl.com/release-notes/1.2.19
+  - version: 1.2.18
+    url: https://crogl.com/release-notes/1.2.18

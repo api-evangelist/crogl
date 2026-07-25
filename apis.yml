@@ -1,7 +1,31 @@
 aid: crogl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crogl.png
 name: Crogl
-description: Crogl is a company surfaced as a portfolio company of menlo-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Crogl is an enterprise AI security operations platform that deploys autonomous
+  AI agents to investigate security alerts and threat advisories entirely within
+  a customer's own infrastructure. Using a neurosymbolic approach that combines
+  knowledge graphs, large language models, and security best practices, Crogl
+  gathers context, queries existing security tools, and cross-references data
+  across SIEM, EDR, ticketing, and data-lake systems without exfiltrating data.
+  It is tool-agnostic — integrating with Splunk, Microsoft Sentinel, CrowdStrike,
+  ServiceNow, Jira, Databricks, Snowflake, Amazon S3, and Cribl — and every
+  action is auditable so human analysts retain final decisions. Crogl is offered
+  as a free single-user deployment and an enterprise plan with SSO, RBAC, and
+  24/7 SLAs. It is a Menlo Ventures portfolio company. Crogl does not currently
+  publish a public REST API, OpenAPI specification, or developer SDK; its API
+  surface (connectors) is part of the on-premises product.
 url: https://raw.githubusercontent.com/api-evangelist/crogl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Security Operations
+- SecOps
+- Artificial Intelligence
+- AI Agents
+- Threat Detection
+- SIEM
+- On-Premises
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,42 @@ maintainers:
 common:
 - type: Website
   url: https://crogl.com
+- type: Pricing
+  url: https://crogl.com/pricing
+- type: Documentation
+  url: https://crogl.com/resources/guides
+- type: GettingStarted
+  url: https://crogl.com/resources/guides
+- type: Blog
+  url: https://crogl.com/resources/blog
+- type: ChangeLog
+  name: Release Notes
+  url: https://crogl.com/release-notes
+- type: ChangeLog
+  name: Changelog (artifact)
+  url: changelog/crogl-changelog.yml
+- type: Support
+  name: Community
+  url: https://crogl.com/community
+- type: Support
+  name: Contact
+  url: https://crogl.com/contact
+- type: PrivacyPolicy
+  url: https://crogl.com/privacy
+- type: CookiePolicy
+  url: https://crogl.com/cookies
+- type: Careers
+  url: https://crogl.com/careers
+- type: Events
+  url: https://crogl.com/events
+- type: Download
+  url: https://crogl.com/download
+- type: DomainSecurity
+  url: security/crogl-domain-security.yml
+- type: LLMsTxt
+  url: llms/crogl-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
