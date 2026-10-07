@@ -1,0 +1,40 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.crogl.com/pricing
+sources:
+- https://www.crogl.com/pricing
+- https://crogl.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: open-core
+  method: page
+  read: '2026-10-07'
+  evidence: Start free. The download runs on-premises, in your own cloud, or fully air-gapped.
+  free_edition: Free
+published: true
+note: 'Two tiers: a free single-user download (on-prem/private cloud/air-gapped) and a custom-priced Enterprise
+  annual contract. No numeric Enterprise price given; free edition is self-hosted but no open-source license
+  stated.'
+plan_count: 2
+currency: USD
+plans:
+- name: Free
+  price_text: $0 forever
+  price: 0
+  currency: USD
+  period: none
+  unit: single-user install
+  included_quota: Unlimited skills & audit trail, single-user install, username/password authentication,
+    all connectors, community support on Slack
+- name: Enterprise
+  price_text: Custom
+  period: year
+  unit: team based
+  included_quota: Annual contract. Team based. Unlimited investigations. Autonomous investigations, own
+    enterprise LLM service, dedicated support and SLAs, multi-user SSO, RBAC
