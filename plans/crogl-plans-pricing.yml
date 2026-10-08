@@ -38,3 +38,27 @@ plans:
   unit: team based
   included_quota: Annual contract. Team based. Unlimited investigations. Autonomous investigations, own
     enterprise LLM service, dedicated support and SLAs, multi-user SSO, RBAC
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units:
+  - seat
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - none
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
